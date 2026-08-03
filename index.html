@@ -110,20 +110,6 @@ Error generating stack: `+i.message+`
         <i class="fa-solid fa-plane-departure text-japan-red text-xl"></i>
         <h1 class="font-bold text-lg tracking-wide">京阪雙城漫遊隨身冊</h1>
       </div>
-      <div class="flex items-center space-x-2">
-        <button id="editToggleBtn" onclick="toggleEditMode()" class="px-3 py-1 bg-white/10 hover:bg-white/20 text-xs rounded-full border border-white/20 flex items-center gap-1 transition">
-          <i class="fa-solid fa-pen-to-square text-yellow-400"></i>
-          <span id="editBtnText">編輯內容</span>
-        </button>
-        <button onclick="showResetModal()" title="恢復預設行程" class="p-1.5 text-gray-300 hover:text-white text-xs">
-          <i class="fa-solid fa-rotate-left text-sm"></i>
-        </button>
-      </div>
-    </div>
-    <div id="editModeBanner" class="hidden bg-yellow-500 text-gray-900 text-xs font-medium px-4 py-1.5 text-center flex justify-between items-center shadow-inner">
-      <span>✏️ <strong>編輯模式已開啟</strong>：點擊任意文字即可直接修改，修改將自動儲存！</span>
-      <button onclick="toggleEditMode()" class="bg-black/20 hover:bg-black/30 px-2 py-0.5 rounded text-[10px]">完成</button>
-    </div>
     <nav class="bg-japan-navy border-t border-white/10 overflow-x-auto no-scrollbar">
       <div class="flex whitespace-nowrap px-2 py-2 max-w-md mx-auto justify-between text-xs">
         <button onclick="switchTab('day1')" id="tab-day1" class="nav-tab px-3 py-1.5 rounded-full font-medium transition bg-japan-red text-white">Day 1</button>
