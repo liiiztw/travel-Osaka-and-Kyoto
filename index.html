@@ -83,6 +83,13 @@
     html {
       scroll-behavior: smooth;
     }
+    .reserve-badge {
+      display:inline-flex; align-items:center; gap:3px;
+      font-size:10px; font-weight:700; padding:2px 6px; border-radius:9999px;
+      margin-left:6px; vertical-align:middle; text-decoration:none;
+    }
+    .reserve-must { background:#fee2e2; color:#b91c1c; border:1px solid #fecaca; }
+    .reserve-rec { background:#fef3c7; color:#92400e; border:1px solid #fde68a; }
   </style>
 </head>
 <body class="text-gray-800 pb-24">
@@ -370,7 +377,7 @@
             <div class="grid grid-cols-12 gap-2 items-center text-xs border-t border-red-200/80 pt-1.5">
               <div class="col-span-5 pr-1 border-r border-red-200 space-y-0.5">
                 <div class="time-badge">19:00(60分鐘)</div>
-                <a href="https://maps.google.com/?q=福太郎本店" target="_blank" class="map-chip"><i class="fa-solid fa-location-dot"></i> 福太郎大阪燒</a>
+                <a href="https://maps.google.com/?q=福太郎本店" target="_blank" class="map-chip"><i class="fa-solid fa-location-dot"></i> 福太郎大阪燒</a> <a href="https://tabelog.com/osaka/A2701/A270202/27001170/" target="_blank" class="reserve-badge reserve-rec">📅 建議預約</a>
               </div>
               <div class="col-span-7 text-red-950 leading-relaxed">
                 排隊人氣大阪燒與經典蔥燒。
@@ -380,7 +387,7 @@
             <div class="grid grid-cols-12 gap-2 items-center text-xs border-t border-red-200/80 pt-1.5">
               <div class="col-span-5 pr-1 border-r border-red-200 space-y-0.5">
                 <div class="time-badge">19:00(60分鐘)</div>
-                <a href="https://maps.google.com/?q=Tonkatsu+Daiki" target="_blank" class="map-chip"><i class="fa-solid fa-location-dot"></i> Tonkatsu Daiki</a>
+                <a href="https://maps.google.com/?q=Tonkatsu+Daiki" target="_blank" class="map-chip"><i class="fa-solid fa-location-dot"></i> Tonkatsu Daiki</a> <a href="https://tabelog.com/osaka/A2701/A270202/27011688/" target="_blank" class="reserve-badge reserve-rec">📅 建議預約</a>
               </div>
               <div class="col-span-7 text-red-950 leading-relaxed">
                 極品日式炸豬排餐廳。
@@ -511,7 +518,7 @@
             <div class="grid grid-cols-12 gap-2 items-center text-xs pt-1">
               <div class="col-span-5 pr-1 border-r border-red-200 space-y-0.5">
                 <div class="time-badge">18:30(90分鐘)</div>
-                <a href="https://maps.google.com/?q=Manryo+Minami+Morimachi" target="_blank" class="map-chip"><i class="fa-solid fa-utensils"></i> 萬兩燒肉</a>
+                <a href="https://maps.google.com/?q=Manryo+Minami+Morimachi" target="_blank" class="map-chip"><i class="fa-solid fa-utensils"></i> 萬兩燒肉</a> <a href="https://autoreserve.com/ja/restaurants/WfFpZrK33LFHCinPyCK5" target="_blank" class="reserve-badge reserve-must">📌 必須預約</a>
               </div>
               <div class="col-span-7 text-red-950 leading-relaxed">
                 超高評價燒肉萬兩南森町店（需預約）。
@@ -521,7 +528,7 @@
             <div class="grid grid-cols-12 gap-2 items-center text-xs border-t border-red-200/80 pt-1.5">
               <div class="col-span-5 pr-1 border-r border-red-200 space-y-0.5">
                 <div class="time-badge">18:30(60分鐘)</div>
-                <a href="https://maps.google.com/?q=Kagawa-udon+Kitashinchi" target="_blank" class="map-chip"><i class="fa-solid fa-location-dot"></i> Kagawa 烏龍麵</a>
+                <a href="https://maps.google.com/?q=Kagawa-udon+Kitashinchi" target="_blank" class="map-chip"><i class="fa-solid fa-location-dot"></i> Kagawa 烏龍麵</a> <a href="https://tabelog.com/osaka/A2702/A270202/27009293/" target="_blank" class="reserve-badge reserve-rec">📅 熱門時段建議預約</a>
               </div>
               <div class="col-span-7 text-red-950 leading-relaxed">
                 北新地熱門手打烏龍麵。
@@ -541,7 +548,7 @@
             <div class="grid grid-cols-12 gap-2 items-center text-xs border-t border-red-200/80 pt-1.5">
               <div class="col-span-5 pr-1 border-r border-red-200 space-y-0.5">
                 <div class="time-badge">18:30(90分鐘)</div>
-                <a href="https://maps.google.com/?q=和牛+寿喜烧+京都五天五+道頓堀" target="_blank" class="map-chip"><i class="fa-solid fa-location-dot"></i> 京都五天五 壽喜燒</a>
+                <a href="https://maps.google.com/?q=和牛+寿喜烧+京都五天五+道頓堀" target="_blank" class="map-chip"><i class="fa-solid fa-location-dot"></i> 京都五天五 壽喜燒</a> <a href="https://tabelog.com/osaka/A2702/A270202/27023047/" target="_blank" class="reserve-badge reserve-rec">📅 建議預約</a>
               </div>
               <div class="col-span-7 text-red-950 leading-relaxed">
                 道頓堀極上和牛壽喜燒。
@@ -717,7 +724,7 @@
             <div class="grid grid-cols-12 gap-2 items-center text-xs pt-1">
               <div class="col-span-5 pr-1 border-r border-orange-200 space-y-0.5">
                 <div class="time-badge">11:30(75分鐘)</div>
-                <a href="https://maps.google.com/?q=空蝉亭" target="_blank" class="map-chip"><i class="fa-solid fa-drumstick-bite"></i> 空蟬亭 熟成豬排</a>
+                <a href="https://maps.google.com/?q=空蝉亭" target="_blank" class="map-chip"><i class="fa-solid fa-drumstick-bite"></i> 空蟬亭 熟成豬排</a> <a href="https://tabelog.com/kyoto/A2601/A260202/26030219/" target="_blank" class="reserve-badge reserve-must">📌 必須預約</a>
               </div>
               <div class="col-span-7 text-orange-950 leading-relaxed">
                 京都低溫慢炸熟成豬排神店，肉質超軟嫩鮮美（Tabelog 百名店，需預約）。
@@ -727,7 +734,7 @@
             <div class="grid grid-cols-12 gap-2 items-center text-xs border-t border-orange-200/80 pt-1.5">
               <div class="col-span-5 pr-1 border-r border-orange-200 space-y-0.5">
                 <div class="time-badge">11:30(60分鐘)</div>
-                <a href="https://hikinikutocome.com/locations/kyoto" target="_blank" class="map-chip"><i class="fa-solid fa-fire"></i> 挽肉與米 京都店</a>
+                <a href="https://hikinikutocome.com/locations/kyoto" target="_blank" class="map-chip"><i class="fa-solid fa-fire"></i> 挽肉與米 京都店</a> <a href="https://hikinikutocome.com/locations/kyoto" target="_blank" class="reserve-badge reserve-must">📌 線上抽整理券</a>
               </div>
               <div class="col-span-7 text-orange-950 leading-relaxed">
                 人氣現烤炭火漢堡排名店（需提前預約/線上抽整理券）。
@@ -747,7 +754,7 @@
             <div class="grid grid-cols-12 gap-2 items-center text-xs border-t border-orange-200/80 pt-1.5">
               <div class="col-span-5 pr-1 border-r border-orange-200 space-y-0.5">
                 <div class="time-badge">11:15(75分鐘)</div>
-                <a href="https://maps.google.com/?q=Okuniya+Mambei" target="_blank" class="map-chip"><i class="fa-solid fa-utensils"></i> 大國屋 鰻兵衞</a>
+                <a href="https://maps.google.com/?q=Okuniya+Mambei" target="_blank" class="map-chip"><i class="fa-solid fa-utensils"></i> 大國屋 鰻兵衞</a> <a href="https://tabelog.com/kyoto/A2601/A260201/26003250/" target="_blank" class="reserve-badge reserve-rec">📅 建議預約</a>
               </div>
               <div class="col-span-7 text-orange-950 leading-relaxed">
                 米其林品質極品鰻魚飯（建議預約）。
@@ -843,7 +850,7 @@
             <div class="grid grid-cols-12 gap-2 items-center text-xs pt-1">
               <div class="col-span-5 pr-1 border-r border-red-200 space-y-0.5">
                 <div class="time-badge">18:30(75分鐘)</div>
-                <a href="https://maps.google.com/?q=宮川町+豚衛門" target="_blank" class="map-chip"><i class="fa-solid fa-drumstick-bite"></i> 宮川町 豚衛門</a>
+                <a href="https://maps.google.com/?q=宮川町+豚衛門" target="_blank" class="map-chip"><i class="fa-solid fa-drumstick-bite"></i> 宮川町 豚衛門</a> <a href="https://tabelog.com/kyoto/A2601/A260302/26030319/" target="_blank" class="reserve-badge reserve-rec">📅 建議預約</a>
               </div>
               <div class="col-span-7 text-red-950 leading-relaxed">
                 花街周邊銘柄豚炸豬排專賣店，肉質外酥內嫩多汁。
@@ -853,7 +860,7 @@
             <div class="grid grid-cols-12 gap-2 items-center text-xs border-t border-red-200/80 pt-1.5">
               <div class="col-span-5 pr-1 border-r border-red-200 space-y-0.5">
                 <div class="time-badge">18:30(90分鐘)</div>
-                <a href="https://maps.google.com/?q=Gion+Uokeya+U" target="_blank" class="map-chip"><i class="fa-solid fa-utensils"></i> 祇園 う桶や う</a>
+                <a href="https://maps.google.com/?q=Gion+Uokeya+U" target="_blank" class="map-chip"><i class="fa-solid fa-utensils"></i> 祇園 う桶や う</a> <a href="https://tabelog.com/kyoto/A2601/A260201/26010793/" target="_blank" class="reserve-badge reserve-must">📌 必須預約</a>
               </div>
               <div class="col-span-7 text-red-950 leading-relaxed">
                 米其林推薦桶裝鰻魚飯。
@@ -863,7 +870,7 @@
             <div class="grid grid-cols-12 gap-2 items-center text-xs border-t border-red-200/80 pt-1.5">
               <div class="col-span-5 pr-1 border-r border-red-200 space-y-0.5">
                 <div class="time-badge">18:30(90分鐘)</div>
-                <a href="https://maps.google.com/?q=Kyo+Unawa+Honten" target="_blank" class="map-chip"><i class="fa-solid fa-location-dot"></i> 京都鰻川本店</a>
+                <a href="https://maps.google.com/?q=Kyo+Unawa+Honten" target="_blank" class="map-chip"><i class="fa-solid fa-location-dot"></i> 京都鰻川本店</a> <a href="https://tabelog.com/kyoto/A2601/A260201/26001154/" target="_blank" class="reserve-badge reserve-must">📌 必須預約</a>
               </div>
               <div class="col-span-7 text-red-950 leading-relaxed">
                 精緻鰻魚飯名店 (Kyo Unawa)。
@@ -981,7 +988,7 @@
             <div class="grid grid-cols-12 gap-2 items-center text-xs pt-1">
               <div class="col-span-5 pr-1 border-r border-red-200 space-y-0.5">
                 <div class="time-badge">18:00(60分鐘)</div>
-                <a href="https://www.bring-you.info/zh-tw/omen-kyoto" target="_blank" class="map-chip"><i class="fa-solid fa-bowl-food"></i> おめん Omen 烏龍麵</a>
+                <a href="https://www.bring-you.info/zh-tw/omen-kyoto" target="_blank" class="map-chip"><i class="fa-solid fa-bowl-food"></i> おめん Omen 烏龍麵</a> <a href="https://tabelog.com/kyoto/A2601/A260201/26000038/" target="_blank" class="reserve-badge reserve-rec">📅 建議預約</a>
               </div>
               <div class="col-span-7 text-red-950 leading-relaxed">
                 京都名代烏龍麵老店，麵條極具彈性，搭配名產藥味蔬菜。
